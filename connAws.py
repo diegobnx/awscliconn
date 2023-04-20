@@ -1,7 +1,7 @@
 import subprocess
 
 # Abrir o arquivo e ler todas as linhas
-with open('contas1.txt', 'r') as f:
+with open('arquivo.txt', 'r') as f:
     lines = f.readlines()
 
 # Iterar sobre as linhas e executar o comando saml2aws
